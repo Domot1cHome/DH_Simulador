@@ -11,7 +11,7 @@ public class ControladorSimulador extends Thread {
 
     int time = 250;
     
-    private String ruta = "http://localhost/DH_Servicios/Simulador.php?id=";
+    private String ruta = "http://localhost/DH_Web/api/Simulador.php?id=";
     private JToggleButton BotonLuz, BotonCamara, BotonAire, BotonOscuro, BotonVentilador;
     private ImageIcon luzOn, luzOff, camaraOn, camaraOff, aireOn, aireOff, oscuro, ventiladorOn, ventiladorOff;
 
